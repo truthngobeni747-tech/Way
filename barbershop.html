@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharp Cuts Barbershop</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+  body { background: #0a0a0a; color: #fff; line-height: 1.6; }
+  .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+  header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #FFD700 0%, #0a0a0a 100%); border-radius: 12px; }
+  h1 { font-size: 32px; color: #FFD700; margin-bottom: 10px; letter-spacing: 2px; }
+  .tagline { color: #ccc; font-size: 14px; }
+  .section { margin: 30px 0; padding: 25px; background: #1a1a1a; border-radius: 12px; border: 1px solid #2a2a2a; }
+  h2 { color: #FFD700; margin-bottom: 15px; font-size: 20px; }
+  .prices { list-style: none; }
+  .prices li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #2a2a2a; }
+  .prices li:last-child { border-bottom: none; }
+  .price { color: #FFD700; font-weight: bold; }
+  .btn { display: block; width: 100%; padding: 16px; margin: 12px 0; text-align: center; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; transition: 0.2s; }
+  .btn-whatsapp { background: #25d366; color: #000; }
+  .btn-call { background: #FFD700; color: #000; }
+  .btn:hover { opacity: 0.85; transform: scale(1.02); }
+  .hours { color: #ccc; }
+  footer { text-align: center; margin-top: 40px; padding: 20px; color: #666; font-size: 12px; }
+</style>
+</head>
+<body>
+  <div class="container">
+    
+    <header>
+      <h1>SHARP CUTS</h1>
+      <p class="tagline">Fresh Fades • Clean Lines • Sharp Style</p>
+    </header>
+
+    <div class="section">
+      <h2>Our Prices</h2>
+      <ul class="prices">
+        <li><span>Haircut</span> <span class="price">R150</span></li>
+        <li><span>Fade + Line Up</span> <span class="price">R180</span></li>
+        <li><span>Beard Trim</span> <span class="price">R80</span></li>
+        <li><span>Full Grooming</span> <span class="price">R250</span></li>
+        <li><span>Kids Cut</span> <span class="price">R120</span></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Book Now</h2>
+      <a href="https://wa.me/27735420981?text=Hi%20Sharp%20Cuts%2C%20I%20want%20to%20book%20a%20haircut" class="btn btn-whatsapp">WhatsApp Me</a>
+      <a href="tel:0735420981" class="btn btn-call">Call Now</a>
+    </div>
+
+    <div class="section">
+      <h2>Opening Hours</h2>
+      <p class="hours">Mon - Sat: 9AM - 7PM</p>
+      <p class="hours">Sunday: 10AM - 3PM</p>
+      <p class="hours">Location: Malamulele, Limpopo</p>
+    </div>
+
+    <footer>
+      Powered by BarberStack SA
+    </footer>
+
+  </div>
+</body>
+</html>
